@@ -1,5 +1,5 @@
-import js from '@eslint/js';
-import stylistic from '@stylistic/eslint-plugin';
+import js from '@eslint/js'
+import stylistic from '@stylistic/eslint-plugin'
 
 export default [
   {
@@ -17,10 +17,10 @@ export default [
     },
     rules: {
       '@stylistic/indent': ['error', 2],
-      '@stylistic/semi': ['error', 'always'],
+      '@stylistic/semi': ['error', 'never'],
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/no-trailing-spaces': 'error',
       '@stylistic/eol-last': ['error', 'always'],
     },
   },
-];
+]
